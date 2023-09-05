@@ -1,0 +1,16 @@
+{
+	"name": "df-biba-negocio-np",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "AzureDataLakeStorage1",
+			"factoryStagingLSType": "LinkedServiceReference",
+			"factoryStagingFolderPath": "prestacion/SAP"
+		}
+	},
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "17a05148-0333-4326-94ce-facab9e399bb",
+		"tenantId": "3799a989-ae73-4400-8590-0d84285cf8e3"
+	}
+}
